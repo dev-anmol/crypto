@@ -12,7 +12,7 @@ const Cards = () => {
     const opacity = useTransform(scrollYProgress, [0, 1], [1, 0.5])
 
     return (
-        <div ref={ref} className=' geist mt-4 flex flex-col md:flex-row lg:flex-row gap-4 py-8'>
+        <div ref={ref} className='p-8 geist mt-4 flex flex-col md:flex-row lg:flex-row gap-4 py-8'>
             {
                 cards.map((card, idx) => (
                     <motion.div
