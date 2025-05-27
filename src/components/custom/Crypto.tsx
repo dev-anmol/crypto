@@ -11,7 +11,7 @@ function Crypto() {
                     easy-to-use platform tailored for seamless navigation and growth.
                 </p>
 
-                <div className='flex items-center gap-8 mt-6 p-3'>
+                <div className='flex items-center md:gap-8 gap-5 mt-6 p-3'>
                     <motion.img initial={{ scale: 1 }} whileHover={{ scale: 1.1, rotate: 10 }} transition={{ duration: 0.2 }} className='cursor-pointer' src='/bitcoin.png' alt="crypto-logo" width={40} height={40} />
                     <motion.img initial={{ scale: 1 }} whileHover={{ scale: 1.1, rotate: -10 }} transition={{ duration: 0.2 }} className='cursor-pointer' src='/ethereum.png' alt="crypto-logo" width={40} height={40} />
                     <motion.img initial={{ scale: 1 }} whileHover={{ scale: 1.1, rotate: 10 }} transition={{ duration: 0.2 }} className='cursor-pointer' src='/dogecoin.png' alt="crypto-logo" width={40} height={40} />
