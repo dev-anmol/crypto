@@ -5,6 +5,7 @@ import '../../app/globals.css'
 import Image from 'next/image'
 import { motion } from 'motion/react'
 import Cards from './Cards'
+import Crypto from './Crypto'
 
 const Partner = () => {
     return (
@@ -17,9 +18,9 @@ const Partner = () => {
                             translateX: '-100%'
                         }}
                         transition={{
-                            duration: 10,
+                            duration: 8,
                             repeat: Infinity,
-                            ease: 'easeInOut',
+                            ease: 'linear',
                             repeatType: 'loop'
                         }}
 
@@ -45,9 +46,8 @@ const Partner = () => {
                 <div>
                     <p className='text-xl lg:text-2xl mt-10 text-neutral-600 font-medium lg:max-w-4xl'>Unlock the Full Potential of <br /> Your Crypto Experience</p>
                 </div>
-                <div>
-                    <Cards />
-                </div>
+                <Cards />
+                <Crypto />
             </div>
 
         </div>
