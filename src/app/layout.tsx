@@ -23,9 +23,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning={true}>
+      <head>
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+        </style>
+      </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`!${geistSans.variable} !${geistMono.variable} antialiased`}
       >
         {children}
       </body>
