@@ -1,4 +1,5 @@
 import React from 'react'
+import { CheckIcon } from '@heroicons/react/16/solid'
 
 const Prices = () => {
     return (
@@ -21,11 +22,36 @@ const Prices = () => {
 
 export const Card = () => {
     return (
-        <div className='bg-white rounded-lg shadow-lg giest min-w-[300px] border border-neutral-100'>
-            Card-1
-            <p className='text-neutral-400 text-sm'>Free</p>
-            <div>
-                <span className='text-3xl font-bold text-black'>$0</span><span className='text-neutral-400 text-sm'>/month</span>
+        <div className='bg-white rounded-2xl shadow-lg giest min-w-[300px] border border-neutral-100 flex flex-col items-center py-10 px-2 gap-8'>
+            <div className='w-[80%] flex flex-col gap-5'>
+                <p className='text-neutral-400 text-sm'>Free</p>
+                <div>
+                    <span className='text-3xl font-bold text-black'>$0</span><span className='text-neutral-400 text-sm'>/month</span>
+                </div>
+                <button className='w-full rounded-md text-xs bg-black text-white py-2 hover:bg-black/90 transition-colors duration-300'>Get started for free</button>
+            </div>
+
+            <div className='w-[80%] flex flex-col gap-4 text-xs font-medium text-neutral-800'>
+                <div className='flex flex-row gap-2'>
+                    <CheckIcon className='h-4 w-4' /><p> Up to 5 project members</p>
+
+                </div>
+                <div className='flex flex-row gap-2'>
+                    <CheckIcon className='h-4 w-4' /><p>Unlimited tasks and projects</p>
+
+                </div>
+                <div className='flex flex-row gap-2'>
+                    <CheckIcon className='h-4 w-4' /><p>2GB storage</p>
+
+                </div>
+                <div className='flex flex-row gap-2'>
+                    <CheckIcon className='h-4 w-4' /><p>Integrations</p>
+
+                </div>
+                <div className='flex flex-row gap-2'>
+                    <CheckIcon className='h-4 w-4' /><p>Basic support</p>
+
+                </div>
             </div>
         </div>
     )
