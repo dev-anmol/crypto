@@ -19,6 +19,10 @@ function Crypto() {
                     <motion.img initial={{ scale: 1 }} whileHover={{ scale: 1.1, rotate: 10 }} transition={{ duration: 0.2 }} className='cursor-pointer' src='/tron.png' alt="crypto-logo" width={40} height={40} />
                     <motion.img initial={{ scale: 1 }} whileHover={{ scale: 1.1, rotate: -10 }} transition={{ duration: 0.2 }} className='cursor-pointer' src='/xrp.png' alt="crypto-logo" width={40} height={40} />
                 </div>
+
+                <div className='mt-4 mb-4'>
+                    <button className='px-3 py-2 text-neutral-100 text-sm bg-purple-500 rounded-lg bg-gradient-to-r from-purple-500 to-purple-950'>Explore more</button>
+                </div>
             </div>
 
 
