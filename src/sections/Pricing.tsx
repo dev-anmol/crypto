@@ -4,7 +4,7 @@ import Testimonials from './Testimonials'
 
 const Pricing = () => {
     return (
-        <div>
+        <div className='bg-gradient-to-t from-purple-200/10 via-purple-100/10 to-purple-100/10'>
             <Prices />
             <Testimonials />
         </div>
