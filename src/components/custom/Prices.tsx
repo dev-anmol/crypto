@@ -3,7 +3,7 @@ import { CheckIcon } from '@heroicons/react/16/solid'
 
 const Prices = () => {
     return (
-        <div className='h-screen geist bg-neutral-50/40 flex justify-center pt-16'>
+        <div className='geist bg-neutral-50/40 flex justify-center pt-16'>
             <div className='holder flex flex-col items-center gap-14'>
                 <div className='flex flex-col items-center justify-center gap-4 w-[70%]'>
                     <p className='font-bold geist text-center w-full text-4xl bg-gradient-to-b from-indigo-800 to-indigo-950 inline-block text-transparent bg-clip-text'>Pricing</p>

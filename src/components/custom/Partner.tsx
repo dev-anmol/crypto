@@ -48,6 +48,7 @@ const Partner = () => {
                 </div>
                 <Cards />
                 <Crypto />
+
             </div>
 
         </div>
