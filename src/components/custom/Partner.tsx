@@ -9,7 +9,7 @@ import Crypto from './Crypto'
 
 const Partner = () => {
     return (
-        <div className='giest w-full flex flex-col items-center gap-10 bg-black-400 mt-16'>
+        <div className='giest w-full flex flex-col items-center gap-10 bg-black-400 mt-16 bg-gradient-to-t from-purple-400/10 via-purple-200/10 to-purple-100/10'>
             <p className='text-xs text-neutral-400 geist p-1'>Trusted by Beloved partners and customers</p>
             <div className='text-center holder flex flex-col gap-10 overflow-hidden justify-center items-center'>
                 <div className='relative overflow-hidden [mask-image:linear-gradient(to_right, transparent, black)]'>
