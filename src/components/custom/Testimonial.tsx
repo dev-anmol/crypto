@@ -4,7 +4,7 @@ import AnimationTestimonials from './AnimationTestimonials'
 
 function Testimonial() {
     return (
-        <div className='geist w-full h-screen mt-20 flex justify-center'>
+        <div className='geist w-full mt-20 flex justify-center'>
             <div className='holder flex flex-col gap-4 items-center'>
                 <div className='w-full flex items-center justify-center'>
                     <p className='px-2 py-1 text-xs border border-neutral-200 rounded-xl w-fit bg-white text-neutral-900 font-medium'>Testimonials</p>
