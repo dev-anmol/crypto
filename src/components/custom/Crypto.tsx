@@ -6,7 +6,7 @@ function Crypto() {
     return (
         <>
             <div className='geist w-full p-4 flex flex-col items-center justify-center gap-1'>
-                <p className='text-xl lg:text-2xl text-neutral-600 font-medium lg:max-w-4xl'>All the chains that matter in one place</p>
+                <p className='text-xl lg:text-4xl md:text-3xl text-neutral-600 font-medium lg:max-w-4xl'>All the chains that matter in one place</p>
                 <p className='text-sm text-neutral-400 lg:max-w-sm'>Simplify your crypto experience with access to all key blockchains in a single,
                     easy-to-use platform tailored for seamless navigation and growth.
                 </p>
@@ -21,7 +21,7 @@ function Crypto() {
                 </div>
 
                 <div className='mt-4 mb-16'>
-                    <button className='px-3 py-2 text-neutral-100 text-sm bg-purple-500 rounded-lg bg-gradient-to-r from-purple-500 to-purple-950'>Explore more</button>
+                    <button className='px-3 py-2 text-neutral-100 text-sm rounded-lg bg-gradient-to-r from-purple-600 to-purple-950'>Explore more</button>
                 </div>
             </div>
         </>

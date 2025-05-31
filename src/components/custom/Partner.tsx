@@ -44,7 +44,7 @@ const Partner = () => {
                 </div>
 
                 <div>
-                    <p className='text-xl lg:text-2xl mt-10 text-neutral-600 font-medium lg:max-w-4xl'>Unlock the Full Potential of <br /> Your Crypto Experience</p>
+                    <p className='text-xl lg:text-4xl md:text-3xl mt-10 text-neutral-600 font-medium lg:max-w-4xl'>Unlock the Full Potential of <br /> Your Crypto Experience</p>
                 </div>
                 <Cards />
                 <Crypto />
