@@ -63,8 +63,8 @@ const Footer = () => {
                         />
                     </div>
 
-                    <div>
-                        <p className="mt-6 text-xs">&copy; 2025 Designed by <a href='https://github.com/dev-anmol' className='text-blue-500'>Anmol</a>. All rights reserved.</p>
+                    <div className='text-center'>
+                        <p className="mt-6 text-xs text-center">&copy; 2025 Designed by <a href='https://github.com/dev-anmol' className='text-blue-500'>Anmol</a>. All rights reserved.</p>
                     </div>
                 </div>
             </div>
