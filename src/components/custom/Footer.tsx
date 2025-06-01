@@ -9,7 +9,7 @@ import SocialYoutube from "@/assets/social-youtube.svg";
 
 const Footer = () => {
     return (
-        <div className='bg-[#020617] text-white/90 giest min-h-[20px] w-full mt-20 flex items-center justify-center'>
+        <div className='bg-[#020617] text-white/90 giest min-h-[20px] w-full flex items-center justify-center'>
             <div className='holder flex flex-col items-center justify-center'>
                 <div className='flex flex-col gap-10 md:gap-4 items-center justify-center w-full p-8'>
                     <div className='flex items-center justify-center w-full'>
