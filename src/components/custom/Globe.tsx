@@ -23,7 +23,7 @@ export default function Globe() {
             }}
         >
             <div
-                className='holder flex items-center justify-center'
+                className='holder flex items-center justify-center shadow-2xl'
             >
                 <Image src="/landing3.webp" alt="globe" width={1000} height={1000} className='rounded-xl' />
             </div>
