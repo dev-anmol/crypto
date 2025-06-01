@@ -11,13 +11,13 @@ function Crypto() {
                     easy-to-use platform tailored for seamless navigation and growth.
                 </p>
 
-                <div className='flex items-center md:gap-8 gap-2 mt-6 p-3'>
-                    <motion.img initial={{ scale: 1 }} whileHover={{ scale: 1.1, rotate: 10 }} transition={{ duration: 0.2 }} className='cursor-pointe2' src='/bitcoin.png' alt="crypto-logo" width={40} height={40} />
-                    <motion.img initial={{ scale: 1 }} whileHover={{ scale: 1.1, rotate: -10 }} transition={{ duration: 0.2 }} className='cursor-pointe2' src='/ethereum.png' alt="crypto-logo" width={40} height={40} />
-                    <motion.img initial={{ scale: 1 }} whileHover={{ scale: 1.1, rotate: 10 }} transition={{ duration: 0.2 }} className='cursor-pointe2' src='/dogecoin.png' alt="crypto-logo" width={40} height={40} />
-                    <motion.img initial={{ scale: 1 }} whileHover={{ scale: 1.1, rotate: -10 }} transition={{ duration: 0.2 }} className='cursor-pointe2' src='/solana.png' alt="crypto-logo" width={40} height={40} />
-                    <motion.img initial={{ scale: 1 }} whileHover={{ scale: 1.1, rotate: 10 }} transition={{ duration: 0.2 }} className='cursor-pointe2' src='/tron.png' alt="crypto-logo" width={40} height={40} />
-                    <motion.img initial={{ scale: 1 }} whileHover={{ scale: 1.1, rotate: -10 }} transition={{ duration: 0.2 }} className='cursor-pointe2' src='/xrp.png' alt="crypto-logo" width={40} height={40} />
+                <div className='flex items-center flex-wrap md:gap-8 gap-1 mt-6 p-3'>
+                    <motion.img initial={{ scale: 1 }} whileHover={{ scale: 1.1, rotate: 10 }} transition={{ duration: 0.2 }} className='cursor-pointe2' src='/bitcoin.png' alt="crypto-logo" width={35} height={35} />
+                    <motion.img initial={{ scale: 1 }} whileHover={{ scale: 1.1, rotate: -10 }} transition={{ duration: 0.2 }} className='cursor-pointe2' src='/ethereum.png' alt="crypto-logo" width={35} height={35} />
+                    <motion.img initial={{ scale: 1 }} whileHover={{ scale: 1.1, rotate: 10 }} transition={{ duration: 0.2 }} className='cursor-pointe2' src='/dogecoin.png' alt="crypto-logo" width={35} height={35} />
+                    <motion.img initial={{ scale: 1 }} whileHover={{ scale: 1.1, rotate: -10 }} transition={{ duration: 0.2 }} className='cursor-pointe2' src='/solana.png' alt="crypto-logo" width={35} height={35} />
+                    <motion.img initial={{ scale: 1 }} whileHover={{ scale: 1.1, rotate: 10 }} transition={{ duration: 0.2 }} className='cursor-pointe2' src='/tron.png' alt="crypto-logo" width={35} height={35} />
+                    <motion.img initial={{ scale: 1 }} whileHover={{ scale: 1.1, rotate: -10 }} transition={{ duration: 0.2 }} className='cursor-pointe2' src='/xrp.png' alt="crypto-logo" width={35} height={35} />
                 </div>
 
                 <div className='mt-4 mb-16'>
