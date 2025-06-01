@@ -131,7 +131,7 @@ const TestimonialColumn = (props: {
 
 const AnimationTestimonials = () => {
     return (
-        <section className="bg-white">
+        <section>
             <div className="flex justify-center gap-6 mt-10 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)] max-h-[738px] overflow-hidden">
                 <TestimonialColumn testimonials={firstColumn} duration={15} />
                 <TestimonialColumn
