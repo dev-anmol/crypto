@@ -64,7 +64,7 @@ const Footer = () => {
                     </div>
 
                     <div>
-                        <p className="mt-6 text-xs">&copy; 2024 Your Company, Inc. All rights reserved.</p>
+                        <p className="mt-6 text-xs">&copy; 2025 Designed by <a href='https://github.com/dev-anmol' className='text-blue-500'>Anmol</a>. All rights reserved.</p>
                     </div>
                 </div>
             </div>

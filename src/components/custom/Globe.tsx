@@ -15,6 +15,9 @@ export default function Globe() {
     return (
         <motion.main
             className='mt-40 flex items-center justify-center'
+            initial={{ opacity: 0, filter: 'blur(10px)' }}
+            animate={{ opacity: 1, filter: 'blur(0px)' }}
+            transition={{ duration: 0.6 }}
             style={{
                 y: parallax
             }}
